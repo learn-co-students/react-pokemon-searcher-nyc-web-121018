@@ -22,7 +22,7 @@ class PokemonForm extends React.Component {
 
     const { name, hp, frontUrl, backUrl } = this.state;
 
-    fetch("http://localhost:3000/pokemon", {
+    fetch("http://localhost:3001/pokemon", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
